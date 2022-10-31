@@ -1,32 +1,32 @@
-	<main>
-	<div class="row">
-			<div class="col-lg-3 col-lg-offset-2 gauche" id="box">
-				<button type="button" class="btn btn-primary btn-lg" id="button">Login</button>
-		 		<form action="" id="form">
-			 		<p><input type="text" placeholder="username"></p>
-			 		<p><input type="password" placeholder="password"></p>
-			 		<p><input type="submit" value="Sign in"></p>
-		 		</form>
- 			</div>
- 		
-			<div class="col-lg-3 col-lg-offset-2 gauche">
- 					<img class="rounded mx-auto d-block" src="../image/project2-headericon.jpg" alt="project2-headericon" height="80">
- 			</div>
-	
-			<div class="col-lg-3 col-lg-offset-2 gauche" id="boxtwo">
-					<button type="button" class="btn btn-primary btn-lg" id="buttontwo">Register</button>
-						<form action="" id="form">
-							<p><input type="text" placeholder="username"></p>
-							<p><input type="email" placeholder="email"></p>
-							<p><input type="password" name="password" placeholder="password"></p>
-                            <p><input type="password" name="password2" placeholder="confirm password"></p>
-                            <p><input type="submit" value="Register"></p>
-						</form>
+<main>
+    <div class="row">
+        <div class="col-lg-3 col-lg-offset-2 gauche" id="box">
+            <button type="button" class="btn btn-primary btn-lg" id="button">Login</button>
+            <form action="" id="form">
+                <p><input type="text" placeholder="username"></p>
+                <p><input type="password" placeholder="password"></p>
+                <p><input type="submit" value="Sign in"></p>
+            </form>
+        </div>
 
-						<!-- USERNAME THEN EMAIL THEN PW -->
-			</div>
-	</div>
-	
+        <div class="col-lg-3 col-lg-offset-2 gauche">
+            <img class="rounded mx-auto d-block" src="../image/project2-headericon.jpg" alt="project2-headericon"
+                height="80">
+        </div>
 
-	</main>
+        <div class="col-lg-3 col-lg-offset-2 gauche" id="boxtwo">
+            <button type="button" class="btn btn-primary btn-lg" id="buttontwo">Register</button>
+            <form action="" id="form">
+                <p><input type="text" placeholder="username"></p>
+                <p><input type="email" placeholder="email"></p>
+                <p><input type="password" name="password" placeholder="password"></p>
+                <p><input type="password" name="password2" placeholder="confirm password"></p>
+                <p><input type="submit" value="Register"></p>
+            </form>
+            {{> messages}} {{!-- inserts error message partial --}}
+        </div>
+    </div>
+
+
+</main>
 <script src="../public/js/login.js"></script>
